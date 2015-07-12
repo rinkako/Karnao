@@ -1,0 +1,5 @@
+MainPackage=D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\Karnao_1.1.0.24_Bundle\Karnao_1.1.0.24_AnyCPU.appx
+SymbolPackage=D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\AppPackages\Karnao_1.1.0.24_Test\Karnao_1.1.0.24_AnyCPU.appxsym
+ResourcePack=D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\Karnao_1.1.0.24_Bundle\Karnao_1.1.0.24_language-zh-hans.appx
+ResourcePack=D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\Karnao_1.1.0.24_Bundle\Karnao_1.1.0.24_scale-140.appx
+ResourcePack=D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\Karnao_1.1.0.24_Bundle\Karnao_1.1.0.24_scale-180.appx

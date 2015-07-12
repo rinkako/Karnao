@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ru"
+"ResourceDimensions"		"language-ru"
+
+[Files]
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Release\split.language-ru.pri"			"resources.pri"

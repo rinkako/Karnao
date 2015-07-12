@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-es"
+"ResourceDimensions"		"language-es-es"
+
+[Files]
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Debug\split.language-es.pri"			"resources.pri"

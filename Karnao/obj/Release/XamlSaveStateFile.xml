@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\documents\visual studio 2013\projects\karnao\karnao\obj\release\intermediatexaml\karnao.exe" HashGuid="1964b2f3-a12a-7b46-ffe9-602506397615" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="d:\documents\visual studio 2013\projects\karnao\packages\mvvmlightlibs.4.2.30.0\lib\netcore45\galasoft.mvvmlight.extras.win8.dll" HashGuid="f1644a38-c628-2fde-5283-4e777988788a" />
+    <ReferenceAssembly PathName="d:\documents\visual studio 2013\projects\karnao\packages\mvvmlightlibs.4.2.30.0\lib\netcore45\galasoft.mvvmlight.win8.dll" HashGuid="0e89fba1-9317-cee7-b759-aaaceabef9d3" />
+    <ReferenceAssembly PathName="d:\documents\visual studio 2013\projects\karnao\packages\mvvmlightlibs.4.2.30.0\lib\netcore45\microsoft.practices.servicelocation.dll" HashGuid="d3a03fc5-3dbc-3307-e1a1-f478f8f2a94d" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Debug\split.scale-140.pri"			"resources.pri"
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Debug\PackageLayout\Assets\BadgeLogo.scale-140.png"			"Assets\BadgeLogo.scale-140.png"

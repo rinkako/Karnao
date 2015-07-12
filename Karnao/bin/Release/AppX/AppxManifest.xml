@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    此包清单文件由生成过程生成。
+
+    如果重新生成此文件，将丢失对其所做的更改。若要更正此文件中的错误，请编辑源 .appxmanifest 文件。
+
+    有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="11961lovelive.363864A899EA6" Publisher="CN=F5062E87-56E5-40F5-80F8-7225E26FB6B9" Version="1.1.0.22" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>卡诺诺</DisplayName>
+    <PublisherDisplayName>lovelive</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="ZH-CN" />
+    <Resource Language="EN-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="Karnao.exe" EntryPoint="ProjectForTemplates.Win81.App">
+      <m2:VisualElements DisplayName="卡诺诺" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="数字逻辑电路设计辅助工具" ForegroundText="light" BackgroundColor="#464646">
+        <m2:DefaultTile Square70x70Logo="Assets\Square70x70Logo.png" ShortName="卡诺诺" Wide310x150Logo="Assets\Wide310x150Logo.png" DefaultSize="square150x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#00b2f0" />
+        <m2:ApplicationView MinWidth="width500" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="12.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2013" />
+    <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.21005.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.21005.1" />
+    <build:Item Name="BehaviorsXamlSDKManaged" Version="12.0" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+  </build:Metadata>
+</Package>

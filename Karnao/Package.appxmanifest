@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="11961lovelive.363864A899EA6" Publisher="CN=F5062E87-56E5-40F5-80F8-7225E26FB6B9" Version="1.1.0.24" />
+  <Properties>
+    <DisplayName>卡诺诺</DisplayName>
+    <PublisherDisplayName>lovelive</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ProjectForTemplates.Win81.App">
+      <m2:VisualElements DisplayName="卡诺诺" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="数字逻辑电路设计辅助工具" ForegroundText="light" BackgroundColor="#464646">
+        <m2:DefaultTile Square70x70Logo="Assets\Square70x70Logo.png" ShortName="卡诺诺" Wide310x150Logo="Assets\Wide310x150Logo.png" DefaultSize="square150x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#00b2f0" />
+        <m2:ApplicationView MinWidth="width500" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>

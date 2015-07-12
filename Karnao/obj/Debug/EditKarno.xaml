@@ -1,0 +1,411 @@
+﻿<Page
+    x:Class="Karnao.EditKarno"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Karnao"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <AppBar Height="88" Background="Olive" BorderBrush="Olive">
+            <Grid>
+                <StackPanel HorizontalAlignment="Left">
+                    <AppBarButton x:ConnectionId='3' Icon="Back" Label="返回"                           />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Width="193" Height="99" Margin="0,0,0,-15">
+                    <AppBarButton x:ConnectionId='1' Icon="Undo" Label="恢复"                             />
+                    <AppBarButton x:ConnectionId='2' Icon="Save" Label="保存"                             />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/cgBackGround.png"/>
+        </Grid.Background>
+        <TextBlock x:Name="PageTitle"
+    		Text="修改次态表"
+    		Style="{StaticResource HeaderTextBlockStyle}"
+    		IsHitTestVisible="false"
+    		TextWrapping="NoWrap"
+    		VerticalAlignment="Top"
+    		Margin="119,64,0,0" FontFamily="Microsoft YaHei"/>
+        <StackPanel x:Name="panelQ3" Margin="177,145,1069,65" Orientation="Vertical">
+            <TextBlock Text="Q3" HorizontalAlignment="Left" Margin="0" FontSize="22" Foreground="#FFA42727" TextAlignment="Center"/>
+            <ComboBox x:Name="cc0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy11" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy12" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy13" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy14" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+
+        </StackPanel>
+        <StackPanel x:Name="panelQ2" Margin="327,145,919,65" Orientation="Vertical">
+            <TextBlock Text="Q2" HorizontalAlignment="Left" Margin="0" FontSize="22" Foreground="#FFA42727" TextAlignment="Center"/>
+            <ComboBox x:Name="cc0_Copy15" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy16" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy17" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy18" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy19" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy21" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy24" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy26" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy27" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy28" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy29" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+
+        </StackPanel>
+        <StackPanel x:Name="panelQ1" Margin="477,145,769,65" Orientation="Vertical">
+            <TextBlock Text="Q1" HorizontalAlignment="Left" Margin="0" FontSize="22" Foreground="#FFA42727" TextAlignment="Center"/>
+            <ComboBox x:Name="cc0_Copy31" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy32" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy33" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy34" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy35" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy36" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy37" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy38" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy39" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy41" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy42" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy43" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy44" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy45" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy46" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+
+        </StackPanel>
+        <StackPanel x:Name="panelQ0" Margin="627,145,619,65" Orientation="Vertical">
+            <TextBlock Text="Q0" HorizontalAlignment="Left" Margin="0" FontSize="22" Foreground="#FFA42727" TextAlignment="Center"/>
+            <ComboBox x:Name="cc0_Copy47" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy49" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy50" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy51" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy52" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy53" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy54" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy55" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy56" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy57" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy58" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy59" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy60" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy61" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+            <ComboBox x:Name="cc0_Copy62" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+                <x:String>0</x:String>
+                <x:String>1</x:String>
+                <x:String>X</x:String>
+            </ComboBox>
+
+        </StackPanel>
+        <TextBlock x:Name="nBlock" Margin="150,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="543" Foreground="#FFA42727" FontSize="26.8" FontFamily="Microsoft YaHei Light" HorizontalAlignment="Left" Width="30">
+        	<Run Text="0"/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        	<LineBreak/>
+        	<Run Text="2"/>
+        	<LineBreak/>
+        	<Run Text="3"/>
+        	<LineBreak/>
+        	<Run Text="4"/>
+        	<LineBreak/>
+        	<Run Text="5"/>
+        	<LineBreak/>
+        	<Run Text="6"/>
+        	<LineBreak/>
+        	<Run Text="7"/>
+        	<LineBreak/>
+        	<Run Text="8"/>
+        	<LineBreak/>
+        	<Run Text="9"/>
+        	<LineBreak/>
+        	<Run Text="A"/>
+        	<LineBreak/>
+        	<Run Text="B"/>
+        	<LineBreak/>
+        	<Run Text="C"/>
+        	<LineBreak/>
+        	<Run Text="D"/>
+        	<LineBreak/>
+        	<Run Text="E"/>
+        	<LineBreak/>
+        	<Run Text="F"/>
+        </TextBlock>
+        <Button x:ConnectionId='4' Content="保存并返回" HorizontalAlignment="Left" Margin="793,617,0,0" VerticalAlignment="Top" Width="180" Height="70" FontSize="16" Background="#FF99B462"                             />
+        <Button x:ConnectionId='5' Content="撤销到上次修改" HorizontalAlignment="Left" Margin="793,561,0,0" VerticalAlignment="Top" Width="180" Height="40" FontSize="16" Background="#FF99B462"                             />
+        <Button x:ConnectionId='6' x:Name="B3" Content="填X" HorizontalAlignment="Left" Margin="174,700,0,0" VerticalAlignment="Top" Width="126" Height="40" FontSize="16" Background="#FF76C7BC"                      Tag="QX3"/>
+        <Button x:ConnectionId='7' x:Name="B2" Content="填X" HorizontalAlignment="Left" Margin="324,700,0,0" VerticalAlignment="Top" Width="126" Height="40" FontSize="16" Background="#FF76C7BC"                      Tag="QX2"/>
+        <Button x:ConnectionId='8' x:Name="B1" Content="填X" HorizontalAlignment="Left" Margin="474,700,0,0" VerticalAlignment="Top" Width="126" Height="40" FontSize="16" Background="#FF76C7BC"                      Tag="QX1"/>
+        <Button x:ConnectionId='9' x:Name="B0" Content="填X" HorizontalAlignment="Left" Margin="624,700,0,0" VerticalAlignment="Top" Width="126" Height="40" FontSize="16" Background="#FF76C7BC"                      Tag="QX0"/>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOMURAAKEMI</Machine>
+    <WindowsUser>佳</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>11961lovelive.363864A899EA6</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\Karnao.exe">
+      <PackagePath>Karnao.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\AboutImage.png">
+      <PackagePath>Assets\AboutImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\buttonCopy.png">
+      <PackagePath>Assets\buttonCopy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\buttonG1.png">
+      <PackagePath>Assets\buttonG1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\buttonG2.png">
+      <PackagePath>Assets\buttonG2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\buttonG3.png">
+      <PackagePath>Assets\buttonG3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\buttonG4.png">
+      <PackagePath>Assets\buttonG4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\cgBackGround.png">
+      <PackagePath>Assets\cgBackGround.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\RightCur.png">
+      <PackagePath>Assets\RightCur.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\Square70x70Logo.scale-140.png">
+      <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\Square70x70Logo.scale-180.png">
+      <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\UpperIcon.png">
+      <PackagePath>Assets\UpperIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\AboutPage.xbf">
+      <PackagePath>AboutPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\EditKarno.xbf">
+      <PackagePath>EditKarno.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\KarnaMap.xbf">
+      <PackagePath>KarnaMap.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\Skins\MainSkin.xbf">
+      <PackagePath>Skins\MainSkin.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\WithLoop.xbf">
+      <PackagePath>WithLoop.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

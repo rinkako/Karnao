@@ -1,0 +1,86 @@
+﻿<Page
+    x:Class="Karnao.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Karnao"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+    	<VisualStateManager.VisualStateGroups>
+    		<VisualStateGroup x:Name="VisualStateGroup">
+    			<VisualStateGroup.Transitions>
+    				<VisualTransition GeneratedDuration="0">
+    					<Storyboard x:Name="inAnime">
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="PageTitle">
+    							<EasingDoubleKeyFrame KeyTime="0" Value="56.915"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+    						</DoubleAnimationUsingKeyFrames>
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="PageTitle">
+    							<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+    						</DoubleAnimationUsingKeyFrames>
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="mainTextBlock">
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="34.149"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+    						</DoubleAnimationUsingKeyFrames>
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mainTextBlock">
+    							<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+    						</DoubleAnimationUsingKeyFrames>
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="mainTextBlock_Copy">
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="34.149"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+    						</DoubleAnimationUsingKeyFrames>
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mainTextBlock_Copy">
+    							<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1"/>
+    						</DoubleAnimationUsingKeyFrames>
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="infoImage">
+    							<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1"/>
+    						</DoubleAnimationUsingKeyFrames>
+    					</Storyboard>
+    				</VisualTransition>
+    			</VisualStateGroup.Transitions>
+    		</VisualStateGroup>
+    	</VisualStateManager.VisualStateGroups>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/cgBackGround.png"/>
+        </Grid.Background>
+        <Image x:Name="infoImage" HorizontalAlignment="Right" Height="695" Margin="35" VerticalAlignment="Top" Width="471" Source="Assets/AboutImage.png"/>
+        <TextBlock x:Name="PageTitle"
+        	Text="关于"
+        	Style="{StaticResource HeaderTextBlockStyle}"
+        	IsHitTestVisible="false"
+        	TextWrapping="NoWrap"
+        	VerticalAlignment="Top"
+        	Margin="119,64,0,0" FontFamily="Microsoft YaHei" RenderTransformOrigin="0.5,0.5">
+        	<TextBlock.RenderTransform>
+        		<CompositeTransform/>
+        	</TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="mainTextBlock" HorizontalAlignment="Left" Margin="119,145,0,0" TextWrapping="Wrap" Text="TEXT BLOCK" VerticalAlignment="Top" Height="325" Width="705" Foreground="Black" FontSize="20" RenderTransformOrigin="0.5,0.5">
+        	<TextBlock.RenderTransform>
+        		<CompositeTransform/>
+        	</TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="mainTextBlock_Copy" HorizontalAlignment="Left" Margin="119,532,0,0" TextWrapping="Wrap" Text="TEXT BLOCK" VerticalAlignment="Top" Height="122" Width="705" Foreground="Black" FontSize="20" RenderTransformOrigin="0.5,0.5">
+        	<TextBlock.RenderTransform>
+        		<CompositeTransform/>
+        	</TextBlock.RenderTransform>
+        </TextBlock>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <AppBar Height="88" Background="Olive" BorderBrush="Olive">
+            <StackPanel HorizontalAlignment="Left">
+                <AppBarButton x:ConnectionId='1' Icon="Back" Label="返回"                           />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

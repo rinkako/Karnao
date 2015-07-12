@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-zh-hans"
+"ResourceDimensions"		"language-zh-cn"
+
+[Files]
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Debug\split.language-zh-hans.pri"			"resources.pri"

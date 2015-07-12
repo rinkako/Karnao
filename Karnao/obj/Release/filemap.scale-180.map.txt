@@ -1,0 +1,9 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-180"
+"ResourceDimensions"		"scale-180"
+
+[Files]
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Release\filemap.scale-180.pri"			"resources.pri"
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Release\PackageLayout\Assets\StoreLogo.scale-180.png"			"Assets\StoreLogo.scale-180.png"
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Release\PackageLayout\Assets\Square70x70Logo.scale-180.png"			"Assets\Square70x70Logo.scale-180.png"
+"D:\Documents\Visual Studio 2013\Projects\Karnao\Karnao\obj\Release\PackageLayout\Assets\BadgeLogo.scale-180.png"			"Assets\BadgeLogo.scale-180.png"
